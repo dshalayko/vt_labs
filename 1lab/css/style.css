@@ -1,0 +1,139 @@
+body {
+    color: black;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, san-serif;
+    font-size: 12px;
+}
+tr.logo {
+    background-color: #a8ddff;
+    text-align: center;
+}
+tr.header {
+    background-color: #a8ddff;
+    text-align: right;
+}
+tr.header td {
+    border-bottom: 1px solid #364dda;
+}
+table {
+    width: 100%;
+    margin: 0 auto;
+    border: 0px;
+    border-spacing: 0px;
+}
+table td {
+    vertical-align: top;
+    font-size: inherit;
+}
+a:link, a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #364dda;
+    text-decoration: none;
+}
+
+.header #right-cell {
+    vertical-align: bottom;
+}
+
+.left-sidebar {
+    width: 22%;
+    background: url(images/image6.jpg);
+    background-size: 100%;
+}
+.left-sidebar hr {
+    border: 2px solid #364dda;
+}
+
+.content {
+    width: 53%;
+    text-align: justify;
+    background-color: #edf8ff;
+}
+.content .top {
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+.content .bottom {
+    margin: 0px;
+    padding-right: 50px;
+}
+.right-sidebar {
+    width: 25%;
+    background-color: #edf8ff;
+}
+.right-sidebar span {
+    margin-left: 3px;
+}
+.right-sidebar a {
+    margin-left: 19px;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+ul li {
+    padding: 2px 0;
+}
+ul#main-menu {
+    font-size: 18px;
+    padding-left: 30px;
+}
+ul#sub-menu {
+    font-size: 16px;
+    padding-left: 30px;
+}
+ul#sub-sub-menu {
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.fieldset-left {
+    float: left;
+    width: 38%;
+    border: 0px;
+    padding: 0px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+}
+.fieldset-left p {
+    margin: 6px 0px;
+    padding-top: 2px;
+}
+.fieldset-right {
+    float: left;
+    width: 55%;
+    border: 0px;
+    padding: 0px;
+}
+.fieldset-right p {
+    margin: 6px 0px;
+}
+input[type="text"], input[type="password"] {
+    width: 65%;
+    border: 1px solid #F4A460;
+    background-color: #edf8ff;
+}
+input[type="submit"] {
+    width: 40%;
+    border: 1px solid #F4A460;
+    background-color: #edf8ff;
+}
+
+.bottom-line {
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #0400b0;
+    margin: 0px;
+}
+tr.footer {
+    text-align: center;
+    background-color: #cdebff;
+}
